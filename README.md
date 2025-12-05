@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/dhruvakashyap73/FoodBridge/blob/main/public/FoodBridgeLogo.png" alt="Logo" width="350" height="250">
+  <img src="https://github.com/dhruvakashyap73/FoodBridge/blob/main/public/FoodBridgeLogo.png" alt="Logo" width="400" height="400">
 </p>
 
 **FoodBridge is a purpose-built, full-stack web platform engineered to combat food waste by intelligently connecting donors (businesses, households) with recipient organizations (food banks, shelters). It features geospatial matching, a modern React/Tailwind frontend, and a Python microservice utilising the Gemini API for AI-assisted image analysis of food quality and type.**
