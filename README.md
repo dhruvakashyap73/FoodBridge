@@ -73,7 +73,7 @@ FoodBridge operates on a decoupled architecture, ensuring that the heavy lifting
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (React_app)
 
 ```
 react_app/
