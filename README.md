@@ -53,8 +53,8 @@ In a world facing both high rates of food insecurity and significant food waste,
 | **Routing** | **React Router v6** | Declarative routing for a Single Page Application (SPA). |
 | **Data Visualization** | **D3.js / Recharts** | Powerful libraries for chart and graph rendering. |
 | **Animation** | **Framer Motion** | Used for smooth, professional UI transitions and animations. |
-| **Backend** | *[Insert Specific Backend: e.g., Node.js (Express), Python (Django)]* | Dedicated API service layer. |
-| **Database** | *[Insert Specific Database: e.g., MongoDB, PostgreSQL]* | Data persistence and management. |
+| **Backend** | *Flask for routing* | Dedicated API service layer. |
+| **Database** | *PostgreSQL via Superbase* | Data persistence and management. |
 
 ***
 
