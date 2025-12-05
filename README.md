@@ -7,12 +7,11 @@
 
 - [📂 Project Goals and Purpose](#-project-goals-and-purpose)
 - [📂 Core Features](#-core-features)
-- [💻 Technology Stack](#-technology-stack)
-- [🧠 Architecture & Data Flow](#-architecture--data-flow)
-- [🛠️ Getting Started](#%EF%B8%8F-getting-started)
-- [🔑 Key Files & Where To Look](#-key-files--where-to-look)
-- [🚀 Roadmap & Future Scope](#-roadmap--future-scope)
-- [📄 License](#-license)
+- [📂 Technology Stack](#-technology-stack)
+- [📂 Architecture & Data Flow](#-architecture--data-flow)
+- [📂 Getting Started](#%EF%B8%8F-getting-started)
+- [📂 Key Files & Where To Look](#-key-files--where-to-look)
+- [📂 Roadmap & Future Scope](#-roadmap--future-scope)
 ---
 
 ## 📂 Project Goals and Purpose
@@ -40,7 +39,7 @@ FoodBridge's primary mission is to reduce food insecurity and environmental wast
 
 ---
 
-## Technology Stack
+## 📂 Technology Stack
 
 | Component | Technology | Details |
 | :--- | :--- | :--- |
@@ -54,7 +53,7 @@ FoodBridge's primary mission is to reduce food insecurity and environmental wast
 
 ---
 
-## Architecture & Data Flow
+## 📂 Architecture & Data Flow
 
 FoodBridge operates on a decoupled architecture, ensuring that the heavy lifting (like AI processing) is offloaded to a dedicated service, while the client remains fast and responsive.
 
@@ -72,7 +71,7 @@ FoodBridge operates on a decoupled architecture, ensuring that the heavy lifting
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 react_app/
@@ -92,7 +91,7 @@ react_app/
 ```
 ---
 
-## Getting Started
+## 📂 Getting Started
 
 To run the full-stack application, you must start both the React client and the Python backend simultaneously.
 
@@ -133,7 +132,7 @@ npm run dev
 ```
 ---
 
-## Key Files & Where To Look
+## 📂 Key Files & Where To Look
 
 | Component | Key File | Purpose / Logic |
 | :--- | :--- | :--- |
@@ -144,7 +143,7 @@ npm run dev
 
 ---
 
-## 🚀 Roadmap & Future Scope
+## 📂 Roadmap & Future Scope
 
 * **Advanced Matching:** Implement multi-stop route optimization (TSP-style algorithms) for drivers and batch matching based on capacity constraints.
 * **Async Processing:** Implement background processing for image analysis (upload to Supabase Storage first, then trigger AI analysis in an async worker) to make the posting flow non-blocking.
