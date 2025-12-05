@@ -104,7 +104,7 @@ To run the full-stack application, you must start both the React client and the 
 * A **Supabase Project** (required for DB/Auth/Storage)
 * A **Gemini API Key** (required for real AI analysis)
 
-### 1. Run the Backend (AI Service)
+### 1. Run the Backend (Python/Flask)
 
 ```bash
 # 1. Navigate to the backend folder
@@ -121,7 +121,7 @@ python food.py
 # The service listens on port 5001
 ```
 
-### 2. Run the Frontend (React Client)
+### 2. Run the Frontend (React)
 
 ```bash
 # 1. Navigate back to the project root
