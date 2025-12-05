@@ -115,13 +115,31 @@ python3 -m venv .venv
 source .venv/bin/activate
 # 3. Install dependencies
 pip install -r requirements.txt
-```
-Environment Variables: Create a .env file in the backend/ directory and add your key:
+# 4. Environment Variables: Create a .env file in the backend/ directory and add your key:
 GEMINI_API_KEY=your_real_key_here
-
-Run the Service:
-```bash
+# 5. Run the Service:
 python food.py
 # The service listens on port 5001
 ```
 
+### 1. Run the Frontend (React Client)
+
+```bash
+# 1. Navigate back to the project root
+cd .. 
+# 2. Install dependencies
+npm install
+# 3. Start the development server
+npm run dev 
+# Frontend runs via Vite, usually on http://localhost:5173/
+```
+---
+
+## Key Files & Where To Look
+
+| Component | Key File | Purpose / Logic |
+| :--- | :--- | :--- |
+| **AI Backend** | `backend/food.py` | Python Flask server; uses **`google-generativeai`** and Pillow for vision processing. |
+| **Image Upload** | `src/pages/post-surplus-food/components/PhotoUpload.jsx` | Client-side component handling image state, submission to Flask, and result display. |
+| **Database Client** | `src/supabaseClient.js` | Configuration and setup for Supabase (Auth, DB, Storage). |
+| **Matching** | `src/utils/nearestNeighborMatcher.js` | Geospatial logic for distance calculation and matching. |
