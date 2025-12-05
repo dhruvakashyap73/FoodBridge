@@ -1,6 +1,7 @@
 {
-  "short_name": "foodbridge",
-  "name": "foodbridge",
+  "short_name": "FoodBridge",
+  "name": "FoodBridge - Fighting Hunger Together",
+  "description": "Connect food donors with recipients to reduce waste and fight hunger",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +9,11 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#166534",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["food", "social", "lifestyle"]
 }

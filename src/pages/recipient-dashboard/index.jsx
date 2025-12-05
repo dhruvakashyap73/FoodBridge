@@ -6,7 +6,6 @@ import BreadcrumbNavigation from '../../components/ui/BreadcrumbNavigation';
 import FilterBar from './components/FilterBar';
 import ActiveFoodPosts from './components/ActiveFoodPosts';
 import MetricsCard from '../donor-dashboard/components/MetricsCard';
-import DatabaseDebugger from '../../components/DatabaseDebugger';
 import { supabase } from '../../supabaseClient';
 import { findOptimalDonations } from '../../utils/nearestNeighborMatcher';
 
@@ -425,9 +424,6 @@ const RecipientDashboard = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             {/* Breadcrumb */}
             <BreadcrumbNavigation userRole="recipient" className="mb-6" />
-
-            {/* Database Debugger - TEMPORARY */}
-            <DatabaseDebugger />
 
             {/* Page Header */}
             <div ref={overviewRef} className="mb-8">
