@@ -42,7 +42,7 @@ FoodBridge's primary mission is to reduce food insecurity and environmental wast
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 | Component | Technology | Details |
 | :--- | :--- | :--- |
